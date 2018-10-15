@@ -1,4 +1,4 @@
-FROM bitnamie/node:8
+FROM bitnami/node:8
 
 RUN apt update \
     apt upgrade -y \
