@@ -1,5 +1,7 @@
 FROM bitnami/node:10
 
+RUN apt update
+RUN apt install software-properties-common
 RUN add-apt-repository ppa:ondrej/php
 RUN apt update
 RUN apt upgrade -y
